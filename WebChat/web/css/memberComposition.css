@@ -1,0 +1,36 @@
+.notice {
+    height: 250px;
+    border-bottom: 2px solid #DCDCDC;
+}
+    
+.notice li {
+    font-size: 10px;
+}
+
+.member_title {
+    height: 50px;
+    margin-top: 30px;
+}
+
+.member_title #member {
+    font-size:20px;
+    font-family: STXingkai,华文行楷;
+}
+
+.member_title #online {
+    font-size: 17px;
+    font-family: STXingkai,华文行楷;
+}
+   
+.user {
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    font-size: 16px;
+    font-family: Arial,"微软雅黑",Helvetica,sans-serif;
+}
+    
+.position {
+    padding-left: 15px;
+}
+

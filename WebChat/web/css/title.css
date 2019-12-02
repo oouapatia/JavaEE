@@ -1,0 +1,13 @@
+
+body {
+    background: url(http://localhost:8080/WebChat/img/title_background.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+    
+.title {
+    margin-left: 520px;
+    font-size: 40px;
+    font-family: STXingkai,华文行楷;
+}
+
