@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(248,246,231);
+}
+
+.top{
+    height: 70px;
+    background: url(http://localhost:8080/ShoppingCart/image/top.jpg);
+    border: 2px solid #DCDCDC;
+}
+.top span{
+    font-size: 50px;
+    font-family: STXingkai,华文行楷;
+}
+
+.title{
+    margin-left: 135px;
+    font-size: 25px;
+    font-family: STXingkai,华文行楷;
+}
+
+.goods_box{
+    width: 80%;
+    height: 620px;
+    margin-left: 10%;
+    border-bottom: 2px solid #DCDCDC;
+}
+
+.goods_box li{
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 300px;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    padding-top: 10px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    list-style: none;
+}
+
+.goods_box .goods_title {
+    font-size: 17px;
+    font-family: STXingkai,华文行楷;
+    white-space: nowrap;
+}
+
+.goods_box .buy_font{
+    font-size: 15px;
+    font-family: STXingkai,华文行楷;
+}
+
+.goods_box .buy {
+    background: none;
+    width: 80px;
+}
+
+.btn{
+    font-size: 18px;
+    font-family: STXingkai,华文行楷;
+    width: 15%;
+    background: none;
+    border: 2px solid #DCDCDC;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 1000px;
+    margin-bottom: 20px;
+}
