@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(http://localhost:8080/ShoppingCart/image/ShoppingCart_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top{
+    height: 70px;
+    background: url(http://localhost:8080/ShoppingCart/image/top.jpg);
+    margin-bottom: 50px;
+}
+
+.top .top_title{
+    margin-left: 570px;
+    font-size: 30px;
+    font-family: STXingkai,华文行楷;
+}
+
+.picture{
+    width: 70px;
+    height: 70px;
+    margin-left: 483px;
+}
+
+.td_title {
+    text-align: center;
+    font-size: 30px;
+    font-family: STXingkai,华文行楷;
+}
+
+.td_content{
+    text-align: center;
+    font-size: 20px;
+    font-family: STXingkai,华文行楷;
+}

@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(http://localhost:8080/ShoppingCart/image/login_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-box{
+    width: 280px;
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.login-box h1{
+    float: left;
+    border-bottom: 6px solid #4caf50;
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+
+.textbox{
+   width: 100%;
+   overflow: hidden;
+   padding: 8px 0;
+   margin: 8px 0;
+   border-bottom: 1px solid #4caf50;
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+
+.btn{
+    width: 40%;
+    background: none;
+    border: 2px solid #4caf50;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.register{
+    font-size: 2px;
+   color: white;
+}
