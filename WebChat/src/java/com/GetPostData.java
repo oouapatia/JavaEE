@@ -85,7 +85,7 @@ public class GetPostData extends HttpServlet {
             }
             response.addCookie(usernameCookie);
             response.addCookie(passwordCookie);
-            response.sendRedirect("loginSuccess.html");
+            response.sendRedirect("loginSuccess.jsp");
         }
         else{
             response.sendRedirect("loginFail.html");
