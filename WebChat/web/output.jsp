@@ -5,7 +5,7 @@
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
-<%
+<%    
     String record = (String)request.getServletContext().getAttribute("record");
     if(record == null)
         record = "";
@@ -14,7 +14,7 @@
     if(online == null)
         online = "0";
     
-    response.setHeader("refresh", "1,url=http://localhost:8080/WebChat/output.jsp");
+    response.setHeader("refresh", "1,url=output.jsp");
 %>
 
 <!DOCTYPE html>
