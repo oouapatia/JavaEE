@@ -8,6 +8,8 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%
+    String path = request.getContextPath();
+
     String username = (String)request.getSession().getAttribute("nameSession");
     
     String underline1    = "none";
@@ -16,7 +18,7 @@
     if("蒲承伟".equals(username)){
         underline1    = "underline";
         logout_color1 = "grey";
-        link1         = "http://localhost:8080/WebChat/logout.jsp";
+        link1         = path + "/logout.jsp";
     }
     
     String underline2    = "none";
@@ -25,7 +27,7 @@
     if("丁万开".equals(username)){
         underline2    = "underline";
         logout_color2 = "grey";
-        link2         = "http://localhost:8080/WebChat/logout.jsp";
+        link2         = path + "/logout.jsp";
     }
     
     String underline3    = "none";
@@ -34,7 +36,7 @@
     if("黄颖".equals(username)){
         underline3    = "underline";
         logout_color3 = "grey";
-        link3         = "http://localhost:8080/WebChat/logout.jsp";
+        link2         = path + "/logout.jsp";
     }
 
     String underline4    = "none";
@@ -43,7 +45,7 @@
     if("姚晨".equals(username)){
         underline4    = "underline";
         logout_color4 = "grey";
-        link4         = "http://localhost:8080/WebChat/logout.jsp";
+        link2         = path + "/logout.jsp";
     } 
 %>
 
@@ -87,22 +89,22 @@
         </div>
         
         <div class="member" style="height: 50px;">
-            <li class="user" style="background: url(http://localhost:8080/WebChat/img/user_1.ico) no-repeat;">
+            <li class="user" style="background: url(img/user_1.ico) no-repeat;">
                 <font class="position" color=black style=text-decoration:<%=underline1%>>蒲承伟</font>
                 <a href=<%=link1%> id="a1">注销</a>
             </li>
             
-            <li class="user" style="background: url(http://localhost:8080/WebChat/img/user_2.ico) no-repeat;">
+            <li class="user" style="background: url(img/user_2.ico) no-repeat;">
                 <font class="position" color=black style=text-decoration:<%=underline2%>>丁万开</font>
                 <a href=<%=link2%> id="a2">注销</a>
             </li>
             
-            <li class="user" style="background: url(http://localhost:8080/WebChat/img/user_3.ico) no-repeat;">
+            <li class="user" style="background: url(img/user_3.ico) no-repeat;">
                 <font class="position" color=black style=text-decoration:<%=underline3%>>黄颖</font>
                 <a href=<%=link3%> id="a3">注销</a>
             </li>
             
-            <li class="user" style="background: url(http://localhost:8080/WebChat/img/user_4.ico) no-repeat;">
+            <li class="user" style="background: url(img/user_4.ico) no-repeat;">
                 <font class="position" color=black style=text-decoration:<%=underline4%>>姚晨</font>
                 <a href=<%=link4%> id="a4">注销</a>
             </li>
