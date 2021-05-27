@@ -49,7 +49,7 @@ public class LoginFilter implements Filter {
         if(user == null){   // 在session中不存在用户名
             out.println("<script type=\"text/javascript\">");
             out.println("alert(\"未登录，清先登录\");");
-            out.println("document.location.href=\"http://localhost:8080/ShoppingCart/Login.jsp\";");
+            out.println("document.location.href=\"Login.jsp\";");
             out.println("</script>");            
         }
         else
