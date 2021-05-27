@@ -14,7 +14,7 @@
     </filter-mapping>
     <filter-mapping>
         <filter-name>LoginFilter</filter-name>
-        <url-pattern>/loginSuccess.html</url-pattern>
+        <url-pattern>/loginSuccess.jsp</url-pattern>
     </filter-mapping>
     <listener>
         <description>HttpSessionListener</description>
