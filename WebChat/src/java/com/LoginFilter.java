@@ -68,7 +68,7 @@ public class LoginFilter implements Filter {
         if(user == null){   //判断session中是否含有用户名
             out.println("<script type=\"text/javascript\">");
             out.println("alert(\"未登录！\");");
-            out.println("document.location.href=\"http://localhost:8080/WebChat/login.jsp\";");
+            out.println("document.location.href=\"login.jsp\";");
             out.println("</script>");            
         }
         else
