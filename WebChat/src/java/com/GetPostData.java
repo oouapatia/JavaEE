@@ -60,8 +60,8 @@ public class GetPostData extends HttpServlet {
         Cookie usernameCookie = new Cookie("usernameCookie",URLEncoder.encode(username, "UTF-8"));
         Cookie passwordCookie = new Cookie("passwordCookie",password);
         
-        String[] name = {"蒲承伟","丁万开","黄颖","姚晨"};
-        String[] pwd = {"201721091075","201721091073","201721091067","201721093002"};
+        String[] name = {"pw","dw","hy","yc"};
+        String[] pwd = {"201720172017","201720172018","201720172019","201720172020"};
         String juge_name = "",juge_pwd = "";
         boolean juge = false;
         for(int i = 0;i < name.length;i++){
