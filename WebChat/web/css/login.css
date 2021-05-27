@@ -1,5 +1,5 @@
 body{
-    background:url(http://localhost:8080/WebChat/img/login_background.jpg)  no-repeat center;
+    background:url(../img/login_background.jpg)  no-repeat center;
     background-size:cover;
     background-attachment:fixed;
     background-color:#CCCCCC;
